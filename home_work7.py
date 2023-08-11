@@ -1,3 +1,11 @@
+clean_folder/
+├── clean_folder/
+│   ├── clean.py
+│   └── __init__.py
+└── setup.py
+
+
+
 # clean_folder/clean_folder/clean.py
 from setuptools import setup
 import os
