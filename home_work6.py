@@ -86,7 +86,7 @@ def main(source_folder):
 
 # Если скрипт запущен как отдельный файл
 if __name__ == "__main__":
-    import sys
+ import sys
 
     # Проверяем количество аргументов командной строки
     if len(sys.argv) != 2:
