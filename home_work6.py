@@ -74,18 +74,4 @@ def main(source_folder):
             process_folder(item_path)
 
 if __name__ == "__main__":
-    import sys
-
-    # Перевіряємо кількість аргументів командного рядка
-    if len(sys.argv) != 2:
-        print("Usage: python sort.py /path/to/folder")
-        sys.exit(1)
-
-    source_folder = sys.argv[1]
-
-    # Перевіряємо, чи існує вказана папка
-    if not os.path.exists(source_folder):
-        print("Source folder does not exist.")
-        sys.exit(1)
-
-    main(source_folder)
+    main()
